@@ -35,7 +35,19 @@
     <!--[if lt IE 9]>
 	<script src="lib/js/html5shiv3.js"></script>
 	<![endif]-->
-
+<style>
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
 </head>
 
 <body>
@@ -383,6 +395,9 @@
         $(function () {
 
         });
+    </script>
+    <script>
+    $('img[usemap]').rwdImageMaps();
     </script>
 
 </body>
