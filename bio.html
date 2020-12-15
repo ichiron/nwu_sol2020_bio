@@ -35,7 +35,19 @@
     <!--[if lt IE 9]>
 	<script src="lib/js/html5shiv3.js"></script>
 	<![endif]-->
-
+<style>
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
 </head>
 
 <body>
@@ -92,20 +104,19 @@
 				<area shape="rect" coords="302,604,599,898" href="#サカナ" alt="Go To サカナラボ！" />
 				<area shape="rect" coords="603,603,899,899" href="#植物の色" alt="Go To 植物の色ラボ！" />
 			</map>
-			
-                    <br>
                     <!– ここから　生物で作成する　2020.11.30 生物htmlチーム（今西、西井） –>
                         <!– ページ内リンクの表示のされ方をちょっと目立つように変更 2020.11.30 by IN –>
-                            <center>
-                                <h4>
-                                    <!– 各グループのページ内リンクを作って見てください 2020.11.30 by IN –>
-                                        <a href="#標本">【Go To 標本紹介ラボ！】</a>
+                           <center> <h5> <a href="#標本">【Go To 標本紹介ラボ！】</a> 
+					 <a href="#ゲーム">【Go To 生物ゲームラボ！】</a>  <br>
+					 <a href="#DNA">【Go To DNAラボ！】</a> 
+					 <a href="#アリ">【Go To アリさんラボ！】</a>  <br>
+					 <a href="#ウミウシ">【Go To ウミウシラボ！】</a>
+					 <a href="#ブロッコリ">【Go To ブロッコリーラボ！】</a>  <br>
+					 <a href="#昆虫">【Go To 昆虫の体ラボ！】</a>  
+					 <a href="#サカナ">【Go To サカナラボ！】</a>  <br>
+					 <a href="#植物の色">【Go To 植物の色ラボ！】</a>
 
-                                        <a href="#アリ">【Go To アリさんラボ！】</a>
-
-                                        <a href="#ゲーム">【Go To 生物ゲームラボ！】</a>
-
-                                </h4>
+                                </h5>
                             </center>
                             <br>
                             <p>おうち時間で生物にハマろう！<br>
@@ -343,7 +354,7 @@
 <!– ここまで –>
                     <div class="list grid-12">
                         <center>
-                            <h3 id=サカナ">Go To サカナラボ！</h3>
+                            <h3 id="サカナ">Go To サカナラボ！</h3>
                         </center>
                         <p>小学生以上対象の動画です。12月中旬公開予定。<br>
                         </p>
@@ -390,6 +401,9 @@
         $(function () {
 
         });
+    </script>
+    <script>
+    $('img[usemap]').rwdImageMaps();
     </script>
 
 </body>
