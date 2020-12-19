@@ -42,9 +42,11 @@
         margin: 0;
         padding: 0;
     }
-    img {
-        width: 100%;
+#content .list img {
+        width: auto;
         height: auto;
+  display: block;
+  margin: 0 auto 20px;
     }
 </style>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
@@ -126,9 +128,9 @@
                                 オンラインでGoTo生物ラボ！<br><br>
                                 <!– アンケートリンクの表示のされ方をちょっと目立つように変更 2020.11.30 by IN –>
                                     <center>
-                                        <h4> <a href="https://forms.gle/WZ6qAxhfNe6Vqw5PA">
+                                        <h3> <a href="https://forms.gle/WZ6qAxhfNe6Vqw5PA">
                                                 サイエンスオープンラボに関するアンケートはこちら！ぜひ回答をお願いします。<br></a>
-                                        </h4>
+                                        </h3>
                                     </center>
 
                             </p>
@@ -151,6 +153,7 @@
 			    <p>
                                 <font size="5">【新着動画】</font><br>
                             </p>
+
                             <p>
                                 <font size="4">＜水に暮らす生き物＞</font><br>
 				    後編：オトヒメノハナガサ、カブトガニ　2020年12月24日公開 <br>
@@ -219,12 +222,12 @@
                             <p>生物かるたは小中学生用と高校生用があるよ!<br>
                                 札は厚紙に印刷して切るか、切った札を厚紙に貼って遊んでね!<br>
                             <h4>生物かるた小中学生用(下の画像をクリックしてダウンロード)</h4>
-                            <a href="./bio/karutasyoutyuugakusei.pdf"><img src="./bio/karutasyoutyuugakusei.jpg"
-                                    height="198" width="193" alt=""></a><br>
+                            <a href="./bio/karutasyoutyuugakusei.pdf"><div style="text-align:left"><img src="./bio/karutasyoutyuugakusei_s.jpg"
+                                    height="198" width="193" alt="小中学生カルタサムネ"></div></a><br>
 
                             <h4>生物かるた高校生用(画像をクリックしてダウンロード)</h4>
-                            <a href="./bio/karutakoukousei.pdf"><img src="./bio/karutakoukousei.jpg" height="198"
-                                    width="193" alt=""></a><br></p>
+                            <a href="./bio/karutakoukousei.pdf">
+				    <div style="text-align:left"><img src="./bio/karutakoukousei_s.jpg" alt="高校生カルタサムネ"></div></a><br></p>
                             <h4>
                                 <li>すごろく　（準備中）</li>
                             </h4>
@@ -282,7 +285,7 @@ DNAをミンチから取り出し、今話題のPCR法で増やして見てみ�
 <!– ここに新着動画の名称とと公開日を書く –>
  
     <a href="https://youtu.be/CXSJWVHXxOc=highres" target="_blank" rel="noopener noreferrer">
- <img src=http://img.youtube.com/vi/CXSJWVHXxOc/hqdefault.jpg width="460" height="315"> </a>
+ <div style="text-align:left"><img src="http://img.youtube.com/vi/CXSJWVHXxOc/mqdefault.jpg" alt="YouTubeサムネ"></div> </a>
     <br></p>
 <!– ここの新着動画のID（上のNkaUsEcXMEM）を自分たちのグループのものに変更する。２箇所あるよ。 –>
  
@@ -360,7 +363,7 @@ DNAをミンチから取り出し、今話題のPCR法で増やして見てみ�
 <!– ここに新着動画の名称とと公開日を書く –>
 
     <a href="https://youtu.be/CShOOs3tzQA" target="_blank" rel="noopener noreferrer">
- <img src=http://img.youtube.com/vi/CShOOs3tzQA/hqdefault.jpg width="460" height="315"> </a>
+ <div style="text-align:left"><img src="http://img.youtube.com/vi/CShOOs3tzQA/mqdefault.jpg" alt="YouTubeサムネ"></div> </a>
     <br></p>
 <!– ここの新着動画のID（上のNkaUsEcXMEM）を自分たちのグループのものに変更する。２箇所あるよ。 –>
 
@@ -371,16 +374,15 @@ DNAをミンチから取り出し、今話題のPCR法で増やして見てみ�
 <p> <a href="https://youtu.be/v72nPqmZrmg?vq=highres" target="_blank" rel="noopener noreferrer"> 【Go To 昆虫の体ラボ】オオセンチコガネの体のつくり　 2020年12月24日公開 </a></p>
 <!- ここにワークシート[insectbody]を挿入したいです。->
 <h4>ワークシート「昆虫の体の中をえがいてみよう！」<br>(下の画像をクリックしてダウンロード)</h4>
-                            <a href="./bio/insectbody.pdf"><img src="./bio/insectbody.png"
-                                    height="189" width="274" alt=""></a><br>
+                            <a href="./bio/insectbody.pdf"><div style="text-align:left"><img src="./bio/insectbody_s.png"
+                                    height="189" width="274" alt=""></div></a><br>
 
 	
 	<p> <a href="https://youtu.be/EmTgtT2cxXA" target="_blank" rel="noopener noreferrer"> 【Go TO 昆虫の体ラボ】オオセンチコガネの翅をたたんでみよう！　 2020年12月24日公開 </a></p>
 
 <!- ここにワークシート[insectwings]を挿入したいです。->
 <h4>ワークシート「オオセンチコガネの翅をたたんでみよう！」<br>(下の画像をクリックしてダウンロード)</h4>
-                            <a href="./bio/insectwings.pdf"><img src="./bio/insectwings.png"
-                                    height="189" width="274" alt=""></a><br>
+                            <a href="./bio/insectwings.pdf"><div style="text-align:left"><img src="./bio/insectwings_s.png" alt=""></div></a><br>
 
 <!– この形式でムービーをリストする 動画名のところと公開日を変更する –>
 <!– リンク内のムービーIDを自分たちの動画に変更すること –>
