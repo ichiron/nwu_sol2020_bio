@@ -42,9 +42,11 @@
         margin: 0;
         padding: 0;
     }
-    img {
-        width: 100%;
+#content .list img {
+        width: auto;
         height: auto;
+  display: block;
+  margin: 0 auto 20px;
     }
 </style>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
@@ -126,9 +128,9 @@
                                 オンラインでGoTo生物ラボ！<br><br>
                                 <!– アンケートリンクの表示のされ方をちょっと目立つように変更 2020.11.30 by IN –>
                                     <center>
-                                        <h4> <a href="https://forms.gle/WZ6qAxhfNe6Vqw5PA">
+                                        <h3> <a href="https://forms.gle/WZ6qAxhfNe6Vqw5PA">
                                                 サイエンスオープンラボに関するアンケートはこちら！ぜひ回答をお願いします。<br></a>
-                                        </h4>
+                                        </h3>
                                     </center>
 
                             </p>
@@ -151,6 +153,7 @@
 			    <p>
                                 <font size="5">【新着動画】</font><br>
                             </p>
+
                             <p>
                                 <font size="4">＜水に暮らす生き物＞</font><br>
 				    後編：オトヒメノハナガサ、カブトガニ　2020年12月24日公開 <br>
@@ -171,7 +174,7 @@
 				    
                             <!– 以下、ムービーのリンクなど編集してます 2020.11.30 by IN–>
 
-                                <p>
+                                <br><p>
 				    <font size="5">【過去の投稿動画】</font><br>
 			        </p>
 			        <p>
@@ -219,12 +222,12 @@
                             <p>生物かるたは小中学生用と高校生用があるよ!<br>
                                 札は厚紙に印刷して切るか、切った札を厚紙に貼って遊んでね!<br>
                             <h4>生物かるた小中学生用(下の画像をクリックしてダウンロード)</h4>
-                            <a href="./bio/karutasyoutyuugakusei.pdf"><img src="./bio/karutasyoutyuugakusei.jpg"
-                                    height="198" width="193" alt=""></a><br>
+                            <a href="./bio/karutasyoutyuugakusei.pdf"><div style="text-align:left"><img src="./bio/karutasyoutyuugakusei_s.jpg"
+                                    height="198" width="193" alt="小中学生カルタサムネ"></div></a><br>
 
                             <h4>生物かるた高校生用(画像をクリックしてダウンロード)</h4>
-                            <a href="./bio/karutakoukousei.pdf"><img src="./bio/karutakoukousei.jpg" height="198"
-                                    width="193" alt=""></a><br></p>
+                            <a href="./bio/karutakoukousei.pdf">
+				    <div style="text-align:left"><img src="./bio/karutakoukousei_s.jpg" alt="高校生カルタサムネ"></div></a><br></p>
                             <h4>
                                 <li>すごろく　（準備中）</li>
                             </h4>
@@ -282,7 +285,7 @@ DNAをミンチから取り出し、今話題のPCR法で増やして見てみ�
 <!– ここに新着動画の名称とと公開日を書く –>
  
     <a href="https://youtu.be/CXSJWVHXxOc=highres" target="_blank" rel="noopener noreferrer">
- <img src=http://img.youtube.com/vi/CXSJWVHXxOc/hqdefault.jpg width="460" height="315"> </a>
+ <div style="text-align:left"><img src="http://img.youtube.com/vi/CXSJWVHXxOc/mqdefault.jpg" alt="YouTubeサムネ"></div> </a>
     <br></p>
 <!– ここの新着動画のID（上のNkaUsEcXMEM）を自分たちのグループのものに変更する。２箇所あるよ。 –>
  
@@ -331,15 +334,27 @@ DNAをミンチから取り出し、今話題のPCR法で増やして見てみ�
 <br></div>
 <!- F.Imanishi and I.Yuuzaki revised 16.Dec,2020 End-->	    
 
-<!- ここから ->	    
-                    <div class="list grid-12">
-                        <center>
-                            <h3 id="ブロッコリ">Go To ブロッコリーラボ！</h3>
-                        </center>
-                        <p>小学生対象の動画（複数）です。（準備中）<br>
-                        </p>
-                    </div>
-<!- ここまで ->	    
+<!--- F.Imanishi and I.Yuuzaki reviised 19.Dec,2020 Begin--->
+<!--- ここから --->	    
+<div class="list grid-12">
+<center>
+<h3 id="ブロッコリ">Go To ブロッコリーラボ！</h3>
+</center>
+<p>ブロッコリーラボでは、身近な野菜であるブロッコリーに注目して、植物のつくりや特徴を2本の動画にわたって紹介しています。染めてみたり、根を生やしてみたり……ブロッコリーのおもしろい一面もご紹介します！<br>
+
+いつもとはちがう気持ちで、植物を見てみませんか？<br><br>
+
+動画は小学生以上を対象としており、12月24日より公開しています。<br><br>
+</p>
+<p><font size="5">【新着動画】</font><br></p><p>
+  【 Go To ブロッコリーラボ】～ブロッコリーを観察しよう～　2020年12月24日公開 <br>
+  <a href="https://youtu.be/pI8qr06lw1M?vq=highres" target="_blank" rel="noopener noreferrer">
+  <img src=http://img.youtube.com/vi/pI8qr06lw1M/hqdefault.jpg width="460" height="315"> </a>
+<br></p>
+<p> <a href="https://youtu.be/＠＠＠＠?vq=highres" target="_blank" rel="noopener noreferrer"> 【 Go To ブロッコリーラボ】～ブロッコリーを観察しよう～ 根っこ編　2020年12月24日公開 </a></p>
+<br></div>
+<!--- ここまで --->	    
+<!--- F.Imanishi and I.Yuuzaki revised 19.Dec,2020 End---->	    
 	    
                     <!– ここから –>
 <div class="list grid-12">
@@ -360,7 +375,7 @@ DNAをミンチから取り出し、今話題のPCR法で増やして見てみ�
 <!– ここに新着動画の名称とと公開日を書く –>
 
     <a href="https://youtu.be/CShOOs3tzQA" target="_blank" rel="noopener noreferrer">
- <img src=http://img.youtube.com/vi/CShOOs3tzQA/hqdefault.jpg width="460" height="315"> </a>
+ <div style="text-align:left"><img src="http://img.youtube.com/vi/CShOOs3tzQA/mqdefault.jpg" alt="YouTubeサムネ"></div> </a>
     <br></p>
 <!– ここの新着動画のID（上のNkaUsEcXMEM）を自分たちのグループのものに変更する。２箇所あるよ。 –>
 
@@ -371,16 +386,15 @@ DNAをミンチから取り出し、今話題のPCR法で増やして見てみ�
 <p> <a href="https://youtu.be/v72nPqmZrmg?vq=highres" target="_blank" rel="noopener noreferrer"> 【Go To 昆虫の体ラボ】オオセンチコガネの体のつくり　 2020年12月24日公開 </a></p>
 <!- ここにワークシート[insectbody]を挿入したいです。->
 <h4>ワークシート「昆虫の体の中をえがいてみよう！」<br>(下の画像をクリックしてダウンロード)</h4>
-                            <a href="./bio/insectbody.pdf"><img src="./bio/insectbody.png"
-                                    height="189" width="274" alt=""></a><br>
+                            <a href="./bio/insectbody.pdf"><div style="text-align:left"><img src="./bio/insectbody_s.png"
+                                    height="189" width="274" alt=""></div></a><br>
 
 	
 	<p> <a href="https://youtu.be/EmTgtT2cxXA" target="_blank" rel="noopener noreferrer"> 【Go TO 昆虫の体ラボ】オオセンチコガネの翅をたたんでみよう！　 2020年12月24日公開 </a></p>
 
 <!- ここにワークシート[insectwings]を挿入したいです。->
 <h4>ワークシート「オオセンチコガネの翅をたたんでみよう！」<br>(下の画像をクリックしてダウンロード)</h4>
-                            <a href="./bio/insectwings.pdf"><img src="./bio/insectwings.png"
-                                    height="189" width="274" alt=""></a><br>
+                            <a href="./bio/insectwings.pdf"><div style="text-align:left"><img src="./bio/insectwings_s.png" alt=""></div></a><br>
 
 <!– この形式でムービーをリストする 動画名のところと公開日を変更する –>
 <!– リンク内のムービーIDを自分たちの動画に変更すること –>
@@ -395,13 +409,35 @@ DNAをミンチから取り出し、今話題のPCR法で増やして見てみ�
                         <p>小学生以上対象の動画です。12月中旬公開予定。<br>
                         </p>
                     </div>
-                    <div class="list grid-12">
-                        <center>
-                            <h3 id="植物の色">Go To 植物の色ラボ！</h3>
-                        </center>
-                        <p>小中学生対象の動画（複数）です。（準備中）<br>
-                        </p>
-                    </div>
+
+<!---- F.Imanishi and I.Yuuzaki revised 18.Dec,2020 Begin--->                    
+<!– ここから –>
+<div class="list grid-12">
+<center>
+<h3 id="色素">Go To 植物の色ラボ!</h3>
+</center>
+<p>植物の色ラボでは、植物の色について紹介しています!<br><br>
+
+植物の色、色素ってなんだろう?<br>
+なんで、植物の色は変わるの？<br>
+クロマトグラフィーってなんだ?<br>
+植物で布を染められる!?<br><br>
+                          
+これらに関する実験も行っています!<br>
+是非見てみて下さい!!<br><br>
+動画は小中学生以上を対象としており、12月24日に公開します。<br><br>
+</p>
+<p><font size="5">【新着動画】</font><br></p><p>
+色素について　2020年12月24日公開 <br>
+<a href="https://youtu.be/ICi2FjQf_oU?vq=highres" target="_blank" rel="noopener noreferrer">
+<img src=http://img.youtube.com/vi/ICi2FjQf_oU/hqdefault.jpg width="460" height="315"> </a><br>
+</p>
+<p> <a href="https://youtu.be/Klp5fe9lvyI?vq=highres" target="_blank" rel="noopener noreferrer"> 植物の色の変化とクロマトグラフィー　　2020年12月24日公開 </a></p>
+<br>
+</div>
+<!- ここまで ->
+<!---- F.Imanishi and I.Yuuzaki revised 18.Dec,2020 End ---> 
+	    
             </div>
             <div id="mainSide" class="grid-4">
 
